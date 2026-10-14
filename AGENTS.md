@@ -58,7 +58,7 @@ Respect existing feature boundaries and prefer the shared `src/` modules over du
 - The main validation commands are `pnpm lint`, `pnpm build`, `pnpm dev`, `pnpm dev:app`, `pnpm setup`, and `pnpm clean`.
 
 <!-- Added by AGYIS-HARNESS -->
-<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- SPDX-License-Identifier: MIT -->
 <!-- Copyright (c) 2026 Arafat Zahan (@kuasha420) -->
 <!-- Corporate Stewardship & Infrastructure: Purrfect Software Limited (PSL) -->
 <!-- Governed by: ICARO-42/b Ordinance (Company-Supported Personal IP Framework) -->
@@ -79,7 +79,7 @@ pnpm lint                                      # Code quality & linting checks
 pnpm dev                                       # Start local development server
 pnpm start                                     # Launch production runtime
 pnpm typecheck                                 # Static type checking
-pnpm clean                                     # Clean build artifacts & caches
+pnpm clean                                     # Terminate zombie sidecar/app processes
 pnpm tauri                                     # Execute tauri
 pnpm dev:app                                   # Execute dev:app
 pnpm setup                                     # Execute setup
